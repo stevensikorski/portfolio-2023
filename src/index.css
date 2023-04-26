@@ -41,7 +41,7 @@ img {
 a {
   position: fixed;
   
-  margin-top: 45%;
+  bottom: 5%;
 }
 
 @keyframes fade {
