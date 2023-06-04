@@ -12,6 +12,19 @@
 
 @layer components {
     .navbar-button {
-        @apply ml-4 bg-white border text-black border-black rounded transition duration-300 hover:bg-black hover:text-white flex justify-center items-center;
+        @apply ml-4 bg-white border no-underline text-black border-black rounded transition duration-300 lg:hover:bg-black lg:hover:text-white flex justify-center items-center;
+    }
+    .navbar-mobile-button {
+        @apply mx-12 bg-black border no-underline text-white border-white rounded transition duration-300 lg:hover:bg-black lg:hover:text-black flex justify-center items-center;
+    }
+
+    @keyframes fade {
+        from { opacity: 1; }
+        to { opacity: 0; }
+    }
+
+    .animate-fade {
+        animation: fade 1s forwards;
+        opacity: 0;
     }
 }
