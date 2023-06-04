@@ -20,7 +20,7 @@
 
     @keyframes fade {
         from { opacity: 1; }
-        to { opacity: 0; }
+        to { opacity: 0; display: none; }
     }
 
     .animate-fade {
