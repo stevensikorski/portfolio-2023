@@ -11,6 +11,10 @@
 }
 
 @layer components {
+    .container {
+        @apply max-w-screen-2xl mx-auto flex justify-between items-center transition-all duration-300;
+    }
+
     .navbar-button {
         @apply ml-4 bg-white border no-underline text-black border-black rounded transition duration-300 lg:hover:bg-black lg:hover:text-white flex justify-center items-center;
     }
@@ -26,5 +30,40 @@
     .animate-fade {
         animation: fade 1s forwards;
         opacity: 0;
+    }
+
+    @keyframes waving {
+        0% {
+            transform: rotate(0deg);
+        }
+        10% {
+            transform: rotate(14deg);
+        }
+        20% {
+            transform: rotate(-8deg);
+        }
+        30% {
+            transform: rotate(14deg);
+        }
+        40% {
+            transform: rotate(-4deg);
+        }
+        50% {
+            transform: rotate(10deg);
+        }
+        60% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }      
+    
+    .animate-waving {
+        animation: waving 2s infinite;
+    }
+
+    .techstack {
+        @apply w-10 lg:w-6 mx-auto;
     }
 }

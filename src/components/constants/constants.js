@@ -1,6 +1,7 @@
 export const links = [
     {
         website: "https://www.stevensikorski.com",
+        picture: "https://media.licdn.com/dms/image/D4E03AQFWLmtUJrdSXw/profile-displayphoto-shrink_400_400/0/1673323581829?e=1691625600&v=beta&t=w8pXYr2VXXAAXPU4XtUY_-R_sreHhIZs_Lz8I_TSdMI",
         home: "home",
         about: "about",
         projects: "projects",
