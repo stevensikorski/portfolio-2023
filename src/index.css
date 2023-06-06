@@ -64,6 +64,6 @@
     }
 
     .techstack {
-        @apply w-10 lg:w-6 mx-auto;
+        @apply w-8 lg:w-6 mx-auto mr-6;
     }
 }
