@@ -6,8 +6,6 @@ import PasswordGenerator from '../assets/projects/PasswordGenerator.png'
 import MazeSolver from '../assets/projects/MazeSolver.png'
 import ASLearn from '../assets/projects/ASLearn.png'
 import EstimatePi from '../assets/projects/EstimatePi.png'
-import macOSSystemInfo from '../assets/projects/macOSSystemInfo.png'
-import Brush from '../assets/projects/Brush.png'
 
 const Projects = () => {
 	return (
@@ -84,39 +82,8 @@ const Projects = () => {
 					</a>
 				</li>
 
-				<li className='project-card'>
-					<img src={macOSSystemInfo} alt='macOS System Info' className='h-14 w-14 p-1 object-cover aspect-auto'></img>
-					<p className='mt-2 text-3xl lg:text-xl font-semi'>
-						macOS System Info
-					</p>
-					<p className='mt-2 text-xl lg:text-sm text-gray-400'>
-						Application to monitor system information on macOS based systems.
-					</p>
-
-					<a href={links[0].project5} target='_blank' rel='noreferrer' className='flex flex-row justify-start items-center mt-auto'>
-						<BiCopy className='h-6 lg:h-5 w-6 lg:w-5 text-gray-400'/>
-						<p className='ml-2 text-2xl lg:text-base text-gray-400'>
-							github.com
-						</p>
-					</a>
-				</li>
-
-				<li className='project-card'>
-					<img src={Brush} alt='Brush' className='h-14 w-14 p-0 object-cover aspect-auto'></img>
-					<p className='mt-2 text-3xl lg:text-xl font-semi'>
-						Brush
-					</p>
-					<p className='mt-2 text-xl lg:text-sm text-gray-400'>
-						Photo editing application for macOS based systems. Currently work in progress...
-					</p>
-
-					<a href={links[0].project6} target='_blank' rel='noreferrer' className='flex flex-row justify-start items-center mt-auto'>
-						<BiCopy className='h-6 lg:h-5 w-6 lg:w-5 text-gray-400'/>
-						<p className='ml-2 text-2xl lg:text-base text-gray-400'>
-							github.com
-						</p>
-					</a>
-				</li>
+				<li className='project-card'></li>
+				<li className='project-card'></li>
 			</ul>
 		</section>
 	)
