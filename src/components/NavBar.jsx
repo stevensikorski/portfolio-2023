@@ -8,15 +8,15 @@ import { VscGithub } from 'react-icons/vsc'
 
 const NavBar = () => {
 	return (
-		<nav className='w-full bg-white border-b border-black text-black fixed'>
-			<div className='h-[9rem] lg:h-[3.75rem] container px-6 lg:px-8 2xl:px-20'>
+		<nav className='w-full bg-white border-b border-black text-black z-50 filter backdrop-blur-md backdrop-opacity-50 fixed'>
+			<div className='h-[9rem] lg:h-[3.75rem] container px-6 lg:px-8 2xl:px-20 flex justify-between items-center'>
 				{/* Icon */}
 				<a href={links[0].website}>
 					<img src={icon} alt='logo' className='h-16 w-16 lg:h-8 lg:w-8 mx-2 lg:mx-0'></img>
 				</a>
 
 				{/* Name */}
-				<p className='ml-6 mr-auto text-3xl lg:text-lg'>
+				<p className='ml-4 mr-auto text-3xl lg:text-lg'>
 					Steven Sikorski
 				</p>
 

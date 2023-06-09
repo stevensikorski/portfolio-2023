@@ -12,7 +12,7 @@
 
 @layer components {
     .container {
-        @apply max-w-screen-2xl mx-auto flex justify-between items-center transition-all duration-300;
+        @apply max-w-screen-2xl mx-auto transition-all;
     }
 
     .navbar-button {
@@ -64,6 +64,14 @@
     }
 
     .techstack {
-        @apply w-8 lg:w-6 mx-auto mr-6;
+        @apply w-10 lg:w-6 mx-auto mr-6 drop-shadow-xl;
+    }
+
+    .project-card {
+        @apply flex flex-col items-start justify-start p-4 border border-gray-100 shadow rounded-xl bg-white hover:bg-gray-50 transform transition duration-200 ease-in-out;
+    }
+
+    .project-card-link:hover {
+        @apply text-green-300;
     }
 }

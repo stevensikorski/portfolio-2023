@@ -12,10 +12,10 @@ const Loader = () => {
 		document.body.style.overflow = 'hidden';
 
 		setTimeout(() => {
-		setHeightClass('h-0');
-		setTimeout(() => {
-			document.body.style.overflow = '';
-		}, 500);
+			setHeightClass('h-0');
+			setTimeout(() => {
+				document.body.style.overflow = '';
+			}, 500);
 		}, 1000);
 
 		return () => {
