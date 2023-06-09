@@ -11,9 +11,9 @@ export const links = [
         github: "https://www.github.com/stevensikorski",
         project1: "https://github.com/stevensikorski/password-generator",
         project2: "https://github.com/stevensikorski/maze-solver",
-        project3: "https://github.com/stevensikorski/ASLearn",
-        project4: "https://github.com/stevensikorski/estimate-pi",
-        project5: "https://github.com/stevensikorski/macos-system-info",
-        project6: "https://github.com/stevensikorski/Brush",
+        project3: "https://github.com/stevensikorski/estimate-pi",
+        project4: "https://github.com/stevensikorski/ASLearn",
+        project5: "",
+        project6: "",
     }
 ]

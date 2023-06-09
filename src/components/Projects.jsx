@@ -49,12 +49,12 @@ const Projects = () => {
 				</li>
 
 				<li className='project-card'>
-					<img src={ASLearn} alt='ASLearn' className='h-14 w-14 p-1 object-cover aspect-auto'></img>
+					<img src={EstimatePi} alt='ASLearn' className='h-14 w-14 p-1 object-cover aspect-auto'></img>
 					<p className='mt-2 text-3xl lg:text-xl font-semi'>
-						ASLearn
+						Estimate Pi
 					</p>
 					<p className='mt-2 text-xl lg:text-sm text-gray-400'>
-						Group project for HackNYU 2022.
+						Estimation of the irrational number pi by utilizing the Monte Carlo Algorithm.
 					</p>
 
 					<a href={links[0].project3} target='_blank' rel='noreferrer' className='flex flex-row justify-start items-center mt-auto'>
@@ -66,12 +66,12 @@ const Projects = () => {
 				</li>
 
 				<li className='project-card'>
-					<img src={EstimatePi} alt='EstimatePi' className='h-14 w-14 p-0 object-cover aspect-auto'></img>
+					<img src={ASLearn} alt='EstimatePi' className='h-14 w-14 p-0 object-cover aspect-auto'></img>
 					<p className='mt-2 text-3xl lg:text-xl font-semi'>
-						Estimate Pi
+						ASLearn
 					</p>
 					<p className='mt-2 text-xl lg:text-sm text-gray-400'>
-						Estimation of the irrational number pi by utilizing the Monte Carlo Algorithm.
+						Group project for HackNYU 2022.
 					</p>
 
 					<a href={links[0].project4} target='_blank' rel='noreferrer' className='flex flex-row justify-start items-center mt-auto'>
@@ -87,6 +87,6 @@ const Projects = () => {
 			</ul>
 		</section>
 	)
-}	
+}
 
 export default Projects
