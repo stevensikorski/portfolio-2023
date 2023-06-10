@@ -5,7 +5,7 @@ import { links } from './constants/constants.js'
 const Home = () => {
 	return (
 		<section id='home' className='bg-white h-screen container border-b border-gray-200 px-6 lg:px-8 2xl:px-32 pt-[9rem] lg:pt-[3.75rem] flex flex-col lg:flex-row-reverse justify-start lg:justify-center items-center'>
-			<img src={links[0].picture} alt='' className='w-1/2 lg:w-1/3 rounded-[100%] py-[6rem] lg:py-0 transition-all duration-300'></img>
+			<img src={links[0].picture} alt='' className='w-1/2 lg:w-1/3 rounded-[100%] py-[6rem] lg:py-0 transition-all duration-300 border-2 border-gray-400'></img>
 
 			<div className='flex flex-col justify-between items-center lg:items-start flex-grow'>
 				<h1 className='text-9xl lg:text-8xl text-center lg:text-left'>Hello there! <span className='animate-waving inline-block'>👋🏻</span></h1>

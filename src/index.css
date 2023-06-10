@@ -68,10 +68,18 @@
     }
 
     .project-card {
-        @apply flex flex-col items-start justify-start p-4 border border-gray-100 shadow rounded-xl bg-white hover:bg-gray-50 transform transition duration-200 ease-in-out;
+        @apply flex flex-col items-start justify-start p-4 border border-gray-100 shadow rounded-xl bg-white lg:hover:scale-[1.025] lg:hover:bg-gray-50 transform transition duration-200 ease-in-out;
     }
 
     .project-card-link:hover {
         @apply text-green-300;
+    }
+
+    .contact-text {
+        @apply w-full text-left text-lg;
+    }
+
+    .contact-input {
+        @apply bg-gray-100 w-full px-2 rounded;
     }
 }
