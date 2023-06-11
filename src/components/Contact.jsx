@@ -7,7 +7,7 @@ const Contact = () => {
 			<h2 className='w-7/8 lg:w-1/2 text-2xl lg:text-lg text-gray-400 pt-2'>Reach out to me with any inquiries or requests. <br></br>Fill out the contact form below.</h2>
 
 			<form action='https://formsubmit.co/contact@stevensikorski.com' method='POST' className='h-full w-full mx-auto mt-6 mb-[9rem] lg:mb-[3.75rem] flex flex-col justify-start items-center px-8'>
-				<input type='hidden' name='_next' value='https://www.stevensikorski.com/submission'></input>
+				<input type='hidden' name='_next' value='https://www.stevensikorski.com/#/submission'></input>
 				<input type='hidden' name='_captcha' value='false'></input>
 
 				<label className='w-full text-left text-4xl lg:text-lg pb-2 lg:pb-0'>Name <span className='text-red-400 font-thin'>*</span></label>
