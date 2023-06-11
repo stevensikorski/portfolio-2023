@@ -27,8 +27,8 @@ const Submission = () => {
                 <img src={icon} alt='logo' className='h-32 w-32 lg:h-16 lg:w-16 mx-2 lg:mx-0'></img>
             </a>
 
-            <p className='text-3xl mt-4'>Submission received!</p>
-            <p className='font-light text-gray-400 mt-1'>Redirecting in {countdown} seconds...</p>
+            <p className='text-4xl lg:text-3xl mt-4 text-center'>Submission received!</p>
+            <p className='text-xl lg:text-base font-light text-gray-400 mt-1 text-center'>Redirecting in {countdown} seconds</p>
         </section>
     )
 }
