@@ -13,23 +13,21 @@ import PageNotFound from './pages/PageNotFound.jsx'
 function App() {
 	return (
 	  <div>
-		<BrowserRouter>
-			<Routes>
-				<Route path="/" element={
-					<div>
-						<Loader />
-						<NavBar />
-						<Home />
-						<About />
-						<Projects />
-						<Contact />
-						<Footer />
-					</div>
-				} />
-				<Route path="/submission" element={<Submission />}/>
-				<Route path='*' element={<PageNotFound />}/>
-			</Routes>
-		</BrowserRouter>
+		<Routes>
+			<Route path="/" element={
+				<div>
+					<Loader />
+					<NavBar />
+					<Home />
+					<About />
+					<Projects />
+					<Contact />
+					<Footer />
+				</div>
+			} />
+			<Route path="/submission" element={<Submission />}/>
+			<Route path='*' element={<PageNotFound />}/>
+		</Routes>
 	  </div>
 	)
   }  

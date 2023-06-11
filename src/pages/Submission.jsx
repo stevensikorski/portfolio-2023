@@ -1,8 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 
-import icon from '../assets/icon.svg'
-
 const Submission = () => {
     const [countdown, setCountdown] = useState(3)
 
