@@ -8,7 +8,7 @@ import EstimatePi from '../assets/projects/EstimatePi.png'
 
 const Projects = () => {
 	return (
-		<section id='projects' className='bg-white h-[100vh] lg:h-screen container border-b border-gray-200 px-8 lg:px-8 2xl:px-20 pt-[9rem] lg:pt-[3.75rem] flex flex-col justify-start items-start'>
+		<section id='projects' className='bg-white h-screen min-h-[1800px] lg:min-h-[100vh] container border-b border-gray-200 px-8 lg:px-8 2xl:px-20 pt-[9rem] lg:pt-[3.75rem] flex flex-col justify-start items-start'>
 			<h1 className='w-full text-3xl lg:text-xl text-black font-semibold pt-6'>Projects</h1>
 			<h2 className='w-7/8 lg:w-1/2 text-2xl lg:text-lg text-gray-400 pt-2 font-light'>I've worked on a few projects since the start of my tenure in college. <br></br>Here are some of my highlight accomplishments so far.</h2>
 
@@ -19,7 +19,7 @@ const Projects = () => {
 						Password Generator
 					</p>
 					<p className='mt-2 text-2xl lg:text-sm text-gray-400 font-light'>
-						macOS desktop application is designed to generate customizable passwords, offering various options to meet the specific requirements and preferences of the user.
+						macOS desktop application is design	ed to generate customizable passwords, offering various options to meet the specific requirements and preferences of the user.
 					</p>
 
 					<a href='https://github.com/stevensikorski/password-generator' target='_blank' rel='noreferrer' className='flex flex-row justify-start items-center mt-auto'>

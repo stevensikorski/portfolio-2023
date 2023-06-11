@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
 	return (
-		<section id='about' className='bg-white h-screen lg:h-[75vh] container border-b border-gray-200 px-8 lg:px-8 2xl:px-20 pt-[9rem] lg:pt-[3.75rem] flex flex-col justify-start items-start'>
+		<section id='about' className='bg-white h-screen lg:h-[75vh] min-h-[1800px] lg:min-h-[75vh] container border-b border-gray-200 px-8 lg:px-8 2xl:px-20 pt-[9rem] lg:pt-[3.75rem] flex flex-col justify-start items-start'>
 			<h1 className='w-full text-3xl lg:text-xl text-black font-semibold pt-6'>About</h1>
 			<h2 className='w-7/8 lg:w-1/2 text-2xl lg:text-lg text-gray-400 pt-2 font-light'>A brief introduction to me, my background, and my interests. <br></br>Learn a thing or two about me. </h2>
 

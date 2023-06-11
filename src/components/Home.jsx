@@ -3,7 +3,7 @@ import pfp from '../assets/pictures/profile-picture.jpeg'
 
 const Home = () => {
 	return (
-		<section id='home' className='bg-white h-screen container border-b border-gray-200 px-6 lg:px-8 2xl:px-32 pt-[9rem] lg:pt-[3.75rem] flex flex-col lg:flex-row-reverse justify-start lg:justify-center items-center'>
+		<section id='home' className='bg-white h-screen min-h-[1800px] lg:min-h-[100vh] container border-b border-gray-200 px-6 lg:px-8 2xl:px-32 pt-[9rem] lg:pt-[3.75rem] flex flex-col lg:flex-row-reverse justify-start lg:justify-center items-center'>
 			<img src={pfp} alt='' className='w-1/2 lg:w-1/3 rounded-[100%] py-[6rem] lg:py-0 transition-all duration-300'></img>
 
 			<div className='flex flex-col justify-between items-center lg:items-start flex-grow'>
