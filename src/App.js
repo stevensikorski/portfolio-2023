@@ -12,7 +12,6 @@ import PageNotFound from './pages/PageNotFound.jsx'
 
 function App() {
 	return (
-	  <div>
 		<Routes>
 			<Route path="/" element={
 				<div>
@@ -28,7 +27,6 @@ function App() {
 			<Route path="/submission" element={<Submission />}/>
 			<Route path='*' element={<PageNotFound />}/>
 		</Routes>
-	  </div>
 	)
   }  
 
