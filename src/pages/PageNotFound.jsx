@@ -23,7 +23,7 @@ const Submission = () => {
 
     return (
         <section className='h-screen w-screen flex flex-col justify-center items-center text-center'>
-            <p className='text-4xl lg:text-2xl mt-4 text-center'>Submission Received</p>
+            <p className='text-4xl lg:text-2xl mt-4 text-center'>Error 404: Page Not Found</p>
             <p className='text-xl lg:text-base font-light text-gray-400 mt-1 text-center'>Redirecting in {countdown} seconds</p>
         </section>
     )
