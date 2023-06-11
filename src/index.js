@@ -1,28 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import Submission from './pages/Submission';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import App from './App'
+import Submission from './pages/Submission'
+import './index.css'
 
-import './index.css';
-import {
-	createBrowserRouter,
-	RouterProvider,
-} from "react-router-dom";
-
-const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <App />,
-	},
-	{
-		path: "/submission",
-		element: <Submission />,
-	}
-  ]);
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-	<React.StrictMode>
-		<RouterProvider router={router} />
-	</React.StrictMode>
-);
+ReactDOM.render(
+  <React.StrictMode>
+    <Router>
+      <Routes>
+        <Route path='/' element={<App />} />
+        <Route path='/submission' element={<Submission />} />
+      </Routes>
+    </Router>
+  </React.StrictMode>,
+  document.getElementById('root')
+)
