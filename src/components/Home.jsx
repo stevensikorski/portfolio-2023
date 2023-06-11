@@ -8,7 +8,7 @@ const Home = () => {
 
 			<div className='flex flex-col justify-between items-center lg:items-start flex-grow'>
 				<h1 className='text-9xl lg:text-8xl text-center lg:text-left'>Hello there! <span className='animate-waving inline-block'>👋🏻</span></h1>
-				<h2 className='text-4xl lg:text-lg text-center lg:text-left leading-relaxed mt-8 mb-auto lg:pb-12 text-gray-400'>I'm Steven Sikorski, a Computer Science Undergraduate from New York City. 🗽</h2>
+				<h2 className='text-4xl lg:text-lg text-center lg:text-left leading-relaxed mt-8 mb-auto lg:pb-12 text-gray-400 font-light'>I'm Steven Sikorski, a Computer Science Undergraduate from New York City. 🗽</h2>
 
 				<div className='flex flex-col lg:flex-row justify-center item-center pb-[6rem] lg:pb-0'>
 					<p className='text-3xl lg:text-lg text-center pb-6 lg:pb-0'><span className='border-b border-gray-300 pb-2 lg:pb-0 lg:border-0'>Tech Stack</span><span className='font-thin text-gray-300 px-4 hidden lg:inline-block'>|</span></p>

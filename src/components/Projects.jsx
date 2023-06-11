@@ -10,7 +10,7 @@ const Projects = () => {
 	return (
 		<section id='projects' className='bg-white h-[100vh] lg:h-screen container border-b border-gray-200 px-8 lg:px-8 2xl:px-20 pt-[9rem] lg:pt-[3.75rem] flex flex-col justify-start items-start'>
 			<h1 className='w-full text-3xl lg:text-xl text-black font-semibold pt-6'>Projects</h1>
-			<h2 className='w-7/8 lg:w-1/2 text-2xl lg:text-lg text-gray-400 pt-2 pr-32 lg:pr-0'>I've worked on a few projects since the start of my tenure in college. <br></br>Here are some of my highlight accomplishments so far.</h2>
+			<h2 className='w-7/8 lg:w-1/2 text-2xl lg:text-lg text-gray-400 pt-2 font-light'>I've worked on a few projects since the start of my tenure in college. <br></br>Here are some of my highlight accomplishments so far.</h2>
 
 			<ul className='h-full lg:h-full w-full lg:w-full mt-6 mb-12 lg:mb-12 p-4 grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-6 px-4 lg:px-0'>
 				<li className='project-card'>
