@@ -19,7 +19,7 @@ const Projects = () => {
 						Password Generator
 					</p>
 					<p className='mt-2 text-2xl lg:text-sm text-gray-400 font-light'>
-						macOS desktop application is design	ed to generate customizable passwords, offering various options to meet the specific requirements and preferences of the user.
+						macOS desktop application is designed to generate customizable passwords, offering various options to meet the specific requirements and preferences of the user.
 					</p>
 
 					<a href='https://github.com/stevensikorski/password-generator' target='_blank' rel='noreferrer' className='flex flex-row justify-start items-center mt-auto'>
