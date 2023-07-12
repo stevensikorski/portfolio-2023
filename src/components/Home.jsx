@@ -23,6 +23,8 @@ const Home = () => {
 						<img className='techstack' alt='' src='https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg'></img>
 						<img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'></img>
 						<img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg'></img>
+            <img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg'></img>
+            <img className='techstack' alt='' src='http://mongodb-js.github.io/leaf/mongodb-leaf_256x256@2x.png'></img>
 
 						<img className='techstack' alt='.NET' src='https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg'></img>
 					</ul>
