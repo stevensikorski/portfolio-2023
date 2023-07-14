@@ -13,20 +13,19 @@ const Home = () => {
 				<div className='flex flex-col lg:flex-row justify-center item-center pb-[6rem] lg:pb-0'>
 					<p className='text-3xl lg:text-lg text-center pb-6 lg:pb-0'><span className='border-b border-gray-300 pb-2 lg:pb-0 lg:border-0'>Tech Stack</span><span className='font-thin text-gray-300 px-4 hidden lg:inline-block'>|</span></p>
 					<ul className='flex justify-center pt-2 lg:pt-0'>
-						<img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg'></img>
-						<img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg'></img>
-						<img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/archive/c/c3/20220821155028%21Python-logo-notext.svg'></img>
-						<img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg'></img>
+						<img className='techstack' title='C++' alt='' src='https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg'></img>
+						<img className='techstack' title='C#' alt='' src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg'></img>
+						<img className='techstack' title='Python' alt='' src='https://upload.wikimedia.org/wikipedia/commons/archive/c/c3/20220821155028%21Python-logo-notext.svg'></img>
 
-						<img className='techstack' alt='' src='https://www.w3.org/html/logo/downloads/HTML5_Badge.svg'></img>
-						<img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg'></img>
-						<img className='techstack' alt='' src='https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg'></img>
-						<img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'></img>
-						<img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg'></img>
-            <img className='techstack' alt='' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg'></img>
-            <img className='techstack' alt='' src='http://mongodb-js.github.io/leaf/mongodb-leaf_256x256@2x.png'></img>
-
-						<img className='techstack' alt='.NET' src='https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg'></img>
+						<img className='techstack' title='JavaScript' alt='' src='https://www.javascripttutorial.net/wp-content/uploads/2021/04/JavaScript-Tutorial.svg'></img>
+						<img className='techstack' title='TypeScript' alt='' src='https://cdn.worldvectorlogo.com/logos/typescript.svg'></img>
+						
+						<img className='techstack' title='HTML' alt='' src='https://www.w3.org/html/logo/downloads/HTML5_Badge.svg'></img>
+						<img className='techstack' title='CSS' alt='' src='https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg'></img>
+						<img className='techstack' title='React' alt='' src='https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'></img>
+						<img className='techstack' title='Tailwind CSS' alt='' src='https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg'></img>
+            			<img className='techstack' title='Node.js' alt='' src='https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg'></img>
+            			<img className='techstack' title='MongoDB' alt='' src='http://mongodb-js.github.io/leaf/mongodb-leaf_256x256@2x.png'></img>
 					</ul>
 				</div>
 			</div>
