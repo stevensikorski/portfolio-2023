@@ -37,7 +37,7 @@ const NavBar = () => {
 					</Link>
 
 					{/* Menu Buttons */}
-					<a href='https://drive.google.com/file/d/17Tid8ogKmrl9bvpPQ5P5aVoqF2K7jQdP/view?usp=sharing' target='_blank' rel='noreferrer'>
+					<a href='https://drive.google.com/file/d/1r2ZiDL4VhBw4EP-W0CLeneX4unVZ5ISE/view?usp=sharing' target='_blank' rel='noreferrer'>
 						<li className='h-24 w-24 lg:h-10 lg:w-10 navbar-button'>
 							<BsFileEarmarkText className='h-10 w-10 lg:h-5 lg:w-5'/>
 						</li>
